@@ -23,7 +23,6 @@ public class TodoController {
         return todoRepo.findAll();
     }
 // postmapping
-
     @PostMapping
     public TodoItem save(@NotNull @RequestBody TodoItem todoItem) {
 
