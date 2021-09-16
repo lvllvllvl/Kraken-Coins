@@ -29,6 +29,7 @@ public class TodoController {
         return todoRepo.save(todoItem);
     }
 
+// update putmapping
     @PutMapping
     public TodoItem update(@NotNull @RequestBody TodoItem todoItem) {
 
